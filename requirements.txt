@@ -1,0 +1,11 @@
+torch
+transformers
+tqdm
+pyyaml
+pandas
+Pillow
+scikit-image
+numpy
+
+# python 3.8
+

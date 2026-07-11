@@ -1,0 +1,22 @@
+{
+    "model": {
+      "parameters": {
+        "epochs": 30,
+        "batch_size": 16,
+        "learning_rate":5e-5
+      },
+      "checkpoint_dir": "results/imageClassifier"
+    },
+    "dataset": {
+      "data_dir": "dataset/MIMIC-CXR",
+      "n_labels":14
+    },
+    "output": {
+      "checkpoint_path": "results/imageClassifierResults/checkpoint.pt",
+      "predictions": "results/imageClassifierResults",
+      "metricsTrain": "results/imageClassifierResults/training_metrics.csv",
+      "metrics": "results/imageClassifierResults",
+      "dynamicThreshold": "results/imageClassifierResults/dynamic_thresholds.json"
+    }
+  }
+  

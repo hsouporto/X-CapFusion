@@ -1,0 +1,22 @@
+training:
+  batch_size: 1
+  lr: 2e-5
+  epochs_number: 20
+  warmup_steps: 5000
+imageEncoder:
+  prefix_length: 10 
+  prefix_length_clip: 10
+  prefix_dimension: 2048  
+mapping:
+  num_layers: 8
+paths:
+  data_dir: "dataset/MIMIC-CXR"
+  checkpoints: "./results/intermediateResults"
+  checkpoints_load: "./results/intermediateResults/checkpoint.pt"
+  predictions_path: "./results/intermediateResults"
+  evaluation_path: "./results/intermediateResults"
+generation:
+  beam_size: 5
+  entry_length: 300
+  temperature: 1.0
+  prompt: ""

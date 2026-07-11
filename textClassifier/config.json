@@ -1,0 +1,24 @@
+{
+    "model": {
+      "parameters": {
+        "epochs": 30,
+        "batch_size": 8,
+        "learning_rate":5e-6
+      },
+      "checkpoint_dir": "results/checkpoints"
+    },
+    "dataset": {
+      "data_dir": "dataset/MIMIC-CXR",
+      "n_labels":14
+    },
+    "output": {
+      "checkpoint_path": "results/TextClassifierResults/checkpoint.pt",
+      "predictions": "results/TextClassifierResults",
+      "metrics": "results/TextClassifierResults",
+      "metricsTrain": "results/TextClassifierResults/training_metrics.csv",
+      "dynamicThreshold": "results/TextClassifierResults/dynamic_thresholds.json"
+
+
+    }
+  }
+  

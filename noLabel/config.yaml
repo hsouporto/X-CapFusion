@@ -1,0 +1,24 @@
+training:
+  batch_size: 1
+  lr: 2e-5
+  epochs_number: 20
+  warmup_steps: 5000
+  alpha: 0.5
+imageEncoder:
+  prefix_length: 10 
+  prefix_length_clip: 10
+  prefix_dimension: 2048  
+mapping:
+  num_layers: 8
+paths:
+  data_dir: "dataset/MIMIC-CXR"
+  classifier_predictions: "results/noLabelResults/predictions_train.csv"
+  checkpoints: "./results/noLabelResults"
+  checkpoints_load: "./results/noLabelResults/checkpoint.pt"
+  predictions_path: "./results/noLabelResults"
+  evaluation_path: "./results/noLabelResults"
+generation:
+  beam_size: 5
+  entry_length: 300
+  temperature: 1.0
+  prompt: ""
