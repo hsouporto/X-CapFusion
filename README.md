@@ -212,5 +212,5 @@ You can access the complete experimental results, including model checkpoints, p
 If you use this model or dataset setup in your research, please cite:
 
 ```bibtex
-@misc{amorim2025xcapfusion, title = {X-CapFusion: Lightweight Label-Aware Medical Image Captioning}, author = {Magda T. Amorim and Hugo S. Oliveira and Hélder P. Oliveira and Luís F. Teixeira}, year = {2025}, note = {Available at \url{https://github.com/your-username/x-capfusion}}, }
+@misc{amorim2026xcapfusion, title = {X-CapFusion: Lightweight Label-Aware Medical Image Captioning}, author = {Magda T. Amorim and Hugo S. Oliveira and Hélder P. Oliveira and Luís F. Teixeira}, year = {2026}, note = {Available at \url{https://github.com/your-username/x-capfusion}}, }
 ```
